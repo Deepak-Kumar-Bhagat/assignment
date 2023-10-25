@@ -1,0 +1,35 @@
+/* universal reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pie-container{
+    background-color:#FFFFFF;
+    width:30%;
+    padding:2% 2.5%;
+    border-radius:7px;  
+}
+
+.text-bold{
+  font-size:1rem;
+  font-weight:700
+}
+
+.text-general{
+  font-size:0.8rem;
+  font-weight:600;
+  color:#BABABA
+}
+
+.box-text{
+  font-size:0.8rem;
+  font-weight:600
+}
+
+.middle-text{
+  font-size:1.1rem;
+  font-weight:600;
+  margin-block: 3px;
+}

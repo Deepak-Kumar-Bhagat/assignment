@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.product-container{
+    background-color:#FFFFFF;
+    width:100%;
+    padding:2% 2.5%;
+    border-radius:7px;  
+}
+
+.text-bold{
+  font-size:1.1rem;
+  font-weight:700
+}
+
+.text-bold1{
+  font-size:0.9rem;
+  font-weight:700
+}
+
+.box-text{
+  font-size:0.8rem;
+  font-weight:600;
+}

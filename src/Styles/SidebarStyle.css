@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.selector-style{
+    justify-content:space-between;
+    align-items:center;
+    padding:3% 2%;
+    margin-block:2%;
+    cursor: pointer;
+}
+
+.big-container{
+    background-color:#040440 ;
+    padding:10% 6%;
+    min-height:100%
+}
+
+.title-head{
+    font-size: 1.2rem;
+    color:#EDECF1;
+    font-weight: bold;
+}
+
+.box-text{
+  font-size:0.9rem;
+  font-weight:500
+}

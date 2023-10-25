@@ -1,0 +1,37 @@
+/* universal reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cart-container{
+    background-color:#FFFFFF;
+    /* width:22%; */
+    width:215px;
+    padding:2.5% 0.5%;
+    justify-content:space-around; 
+    border-radius:7px;
+    margin-top: 20px;
+}
+
+.logo-container{
+  width:40.5%;
+  border-radius:55%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-left:2%;
+  padding:1.2rem 0rem
+}
+
+.box-text{
+  font-size:0.7rem;
+  font-weight:600
+}
+
+.middle-text{
+  font-size:1.1rem;
+  font-weight:600;
+  margin-block: 3px;
+}
