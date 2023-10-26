@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+Welcome to the Web App Management App! As a front-end developer, your mission is to implement robust user authentication and access control in a React application. The app utilizes JSON data for user credentials and an Access Control List (ACL) to manage user permissions, offering a seamless and visually appealing user experience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Created a user-friendly login form that captures username and password inputs.
 
-## Available Scripts
+Validated user input against a dataset containing user credentials (username, password, active module).
+Only users with valid credentials are granted access.
+Error messages (Credential is Wrong) displayed when authentication fails.
+Three user roles defined with distinct access permissions.
+Admin-permitted for all features in the app. 
+Admin  suresh@gmail.com
+Password-12345678
+Executive- Access to Balance and Earning and overview graph Stock list in Product sell table
+Access to product and promote and partial access in customer tab.
+Credential Deepak@gmail.com
+Password 12456
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sales-Access to total sales and orders , Total sell in product table customer graph .
+Access to income tab in dashboard and partial access to customer tab.
+ 
+Login Form Design:
+ 
+Error Handling
+Authentication Errors:
+Message pops up “Credential is wrong” when wrong user credentials are input.
+Security
+All routes are protected cannot access any pages without login, Throws error otherwise.
+GITHUB Link- https://github.com/Deepak-Kumar-Bhagat/assignment
+Live link(Deployed)- https://managmentapp.netlify.app/
